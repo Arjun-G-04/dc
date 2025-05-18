@@ -2,7 +2,7 @@
     const desc = 'Designers\' Consortium, the official product design club of NIT Trichy.  Our main aim is to identify key problems that hamper the comfortable living of the diverse sections of our society, and provide with an answer to their needs. To defy the various odds in the way, design a solution satisfying requirements and deliver a product championing the standards is our motto.'
 </script>
 
-<div class="w-screen min-h-screen flex flex-col bg-black font-poppins text-white p-5 md:p-10 justify-center items-center">
+<div class="w-screen min-h-screen flex flex-col bg-[#111111] font-poppins text-white p-5 md:p-10 justify-center items-center">
     <div class="flex flex-col md:flex-row justify-center items-center">
         <div class="flex flex-col w-full md:w-1/2 gap-5 p-5">
             <div class="font-bold text-5xl text-orange-500">About Us</div>
