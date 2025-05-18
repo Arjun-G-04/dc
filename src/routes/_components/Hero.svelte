@@ -1,7 +1,7 @@
 <div class="flex flex-col w-screen h-screen font-poppins text-white text-center">
     <div class="flex flex-row h-[10vh] w-full items-center px-5 bg-black">
         <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             class="h-[90%] aspect-square object-contain"
         />
@@ -14,7 +14,7 @@
     </div>
     <div class="h-full w-full relative flex flex-col items-center justify-center">
         <img
-            src="/gears.png"
+            src="/gears.webp"
             alt="Gears"
             class="absolute object-cover w-full h-full -z-10 bg-black"
         />
