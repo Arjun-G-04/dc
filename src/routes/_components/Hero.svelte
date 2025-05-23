@@ -9,7 +9,7 @@
             <span class="text-orange-500">Designers'</span> Consortium
         </div>
         <div class="flex flex-row ml-auto">
-            <button class="bg-orange-500 px-5 py-1 rounded-sm font-medium hover:cursor-pointer">Apply Now</button>
+            <a href="https://forms.gle/bk35ssWiuDea1aR48" target="_blank" class="bg-orange-500 px-5 py-1 rounded-sm font-medium hover:cursor-pointer">Apply Now</a>
         </div>
     </div>
     <div class="h-full w-full relative flex flex-col items-center justify-center">
@@ -20,6 +20,6 @@
         />
         <div class="text-6xl font-bold"><span class="text-orange-500">Welcome to Designers'</span> Consortium</div>
         <div class="text-3xl font-light mt-10">Defy. Design. Deliver.</div>
-        <button class="bg-orange-500 px-5 py-2 rounded-sm font-medium mt-10 hover:cursor-pointer">Apply Now</button>
+        <a href="https://forms.gle/bk35ssWiuDea1aR48" target="_blank" class="bg-orange-500 px-5 py-2 rounded-sm font-medium mt-10 hover:cursor-pointer">Apply Now</a>
     </div>
 </div>

@@ -26,7 +26,7 @@
     <h1 class="text-orange-500 font-bold text-5xl text-center">Our Publications</h1>
     <div class="flex flex-row flex-wrap gap-5 w-full overflow-auto justify-center">
         {#each data as item (item.id)}
-            <div class="bg-[#111111] h-[30vh] w-full sm:w-auto sm:aspect-[1.7] p-5 rounded-sm flex flex-col justify-around overflow-auto gap-2">
+            <div class="bg-black h-[30vh] w-full sm:w-auto sm:aspect-[1.7] p-5 rounded-sm flex flex-col justify-around overflow-auto gap-2">
                 <p class="text-orange-500 font-medium">{item.year}</p>
                 <h2 class="font-medium text-md sm:text-2xl">{item.title}</h2>
                 <p class="text-gray-300 text-sm">{item.confOrPub}</p>

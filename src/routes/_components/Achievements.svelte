@@ -1,51 +1,34 @@
 <script lang="ts">
-    const data = [{
+    const data = [
+    {
         id: 0,
-        title: 'Smart India Hackathon',
+        title: 'AtomQuest',
         desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/1.png'
+        img: '/achievements/1.webp'
     },
     {
         id: 1,
-        title: 'AtomQuest',
+        title: 'Smart India Hackathon',
         desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/2.png'
+        img: '/achievements/2.webp'
     },
     {
         id: 2,
-        title: 'Smart India Hackathon',
-        desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/1.png'
+        title: 'Caterpillar IDP\'24 at IITM',
+        desc: 'Winners',
+        img: '/achievements/3.webp'
     },
     {
         id: 3,
-        title: 'AtomQuest',
-        desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/2.png'
+        title: 'Caterpillar IDP\'24 at IITM',
+        desc: 'Winners',
+        img: '/achievements/4.webp'
     },
     {
         id: 4,
-        title: 'Smart India Hackathon',
-        desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/1.png'
-    },
-    {
-        id: 5,
-        title: 'AtomQuest',
-        desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/2.png'
-    },
-    {
-        id: 6,
-        title: 'Smart India Hackathon',
-        desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/1.png'
-    },
-    {
-        id: 7,
-        title: 'AtomQuest',
-        desc: 'Secured 1st place in India\'s biggest Hackathon',
-        img: '/achievements/2.png'
+        title: 'Sangam\'24, Pragyan',
+        desc: 'Winners',
+        img: '/achievements/5.webp'
     }]
 </script>
 
@@ -57,7 +40,7 @@
                 <h2 class="text-orange-500 font-medium text-xl">{item.title}</h2>
                 <p class="overflow-ellipsis overflow-hidden whitespace-nowrap font-light text-gray-300 text-sm">{item.desc}</p>
                 <div class="grow basis-0 w-full relative">
-                    <img src={item.img} alt={item.title} class="absolute w-full h-full object-cover" loading="lazy" />
+                    <img src={item.img} alt={item.title} class={`absolute w-full h-full ${item.id === 0 ? 'object-contain' : 'object-cover'}`} loading="lazy" />
                 </div>
             </div>
         {/each}
